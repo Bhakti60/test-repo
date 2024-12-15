@@ -1,4 +1,5 @@
 try:
+    
     with open('servers.txt', 'r') as file:
         content = file.readlines()
 except Exception as e:
